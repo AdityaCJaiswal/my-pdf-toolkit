@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Upload, Scissors, Download, AlertCircle, CheckCircle } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function SplitPDF() {
   const [file, setFile] = useState<File | null>(null);
