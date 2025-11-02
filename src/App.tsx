@@ -51,7 +51,7 @@ function App() {
         </div>
 
         <footer className="text-center mt-8 text-slate-500 text-sm">
-          <p>All processing happens locally on your machine</p>
+          <p>Made with passion by Adi :)</p>
         </footer>
       </div>
     </div>
